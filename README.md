@@ -1,6 +1,10 @@
 # PostgreSQL Access Control Map
-
-A visual map of the PostgreSQL access control model for reasoning systematically about roles, privileges, ownership and other authorization mechanisms.
+<a href="postgresql-access-control-map.svg">
+  <img src="postgresql-access-control-map.svg"
+       alt="PostgreSQL Access Control Map">
+</a>
+A <b>visual map</b> of the PostgreSQL access control model for reasoning <b>systematically</b> about roles, privileges, ownership and other authorization mechanisms.
+<hr>
 
 PostgreSQL provides several mechanisms that determine whether a role is allowed to perform an operation. Looking at these mechanisms individually can make it difficult to reason about the complete access configuration.
 
